@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/page1"
+    >
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TableRow>
+            <TextView android:text="名前" android:gravity="center" android:layout_weight="1"/>
+            <EditText android:id="@+id/edit_name" android:inputType="text"  android:layout_weight="1" />
+        </TableRow>
+
+
+    </TableLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:layout_width="0px"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnSend"
+            android:layout_weight="1"
+            android:text="登録"
+            android:onClick="btnOnClick"
+            />
+
+        <Button
+            android:layout_width="0px"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnParse"
+            android:text="検索"
+            android:layout_weight="1"
+            android:onClick="btnOnClick"
+            />
+
+
+    </LinearLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textShow"
+            />
+    </ScrollView>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:id="@+id/page2"
+        >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:id="@+id/result_text"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:textSize="30dp"
+                android:gravity="center"
+                />
+        </LinearLayout>
+
+
+        <TableRow
+            android:background="#000000"
+            android:layout_weight="1">
+            <ImageView android:id="@+id/man0" android:layout_weight="1" android:layout_height="match_parent" android:layout_width="match_parent" android:src="@drawable/icon_citizen" android:clickable="false"/>
+            <ImageView android:id="@+id/man1" android:layout_weight="1" android:layout_height="match_parent" android:layout_width="match_parent" android:src="@drawable/icon_citizen" android:clickable="false"/>
+            <ImageView android:id="@+id/man2" android:layout_weight="1" android:layout_height="match_parent" android:layout_width="match_parent" android:src="@drawable/icon_citizen" android:clickable="false"/>
+            <ImageView android:id="@+id/man3" android:layout_weight="1" android:layout_height="match_parent" android:layout_width="match_parent" android:src="@drawable/icon_citizen" android:clickable="false"/>
+        </TableRow>
+        <TableRow
+            android:background="#000000"
+            android:layout_weight="1">
+            <ImageView android:id="@+id/man4" android:layout_weight="1" android:layout_height="match_parent" android:layout_width="match_parent" android:src="@drawable/icon_citizen" android:clickable="false"/>
+            <ImageView android:id="@+id/man5" android:layout_weight="1" android:layout_height="match_parent" android:layout_width="match_parent" android:src="@drawable/icon_citizen" android:clickable="false"/>
+            <ImageView android:id="@+id/man6" android:layout_weight="1" android:layout_height="match_parent" android:layout_width="match_parent" android:src="@drawable/icon_citizen" android:clickable="false"/>
+            <ImageView android:id="@+id/man7" android:layout_weight="1" android:layout_height="match_parent" android:layout_width="match_parent" android:src="@drawable/icon_citizen" android:clickable="false"/>
+        </TableRow>
+        <TableRow
+            android:background="#000000"
+            android:layout_weight="1">
+            <ImageView android:id="@+id/man8" android:layout_weight="1" android:layout_height="match_parent" android:layout_width="match_parent" android:src="@drawable/icon_citizen" android:clickable="false"/>
+            <ImageView android:id="@+id/man9" android:layout_weight="1" android:layout_height="match_parent" android:layout_width="match_parent" android:src="@drawable/icon_citizen" android:clickable="false"/>
+            <ImageView android:id="@+id/man10" android:layout_weight="1" android:layout_height="match_parent" android:layout_width="match_parent" android:src="@drawable/icon_citizen" android:clickable="false"/>
+            <ImageView android:id="@+id/man11" android:layout_weight="1" android:layout_height="match_parent" android:layout_width="match_parent" android:src="@drawable/icon_citizen" android:clickable="false"/>
+        </TableRow>
+        <TableRow
+            android:id="@+id/line_cut1"
+            android:background="#000000"
+            android:layout_weight="1">
+            <ImageView android:id="@+id/man12" android:layout_weight="1" android:layout_height="match_parent" android:layout_width="match_parent" android:src="@drawable/icon_citizen" android:clickable="false"/>
+            <ImageView android:id="@+id/man13" android:layout_weight="1" android:layout_height="match_parent" android:layout_width="match_parent" android:src="@drawable/icon_citizen" android:clickable="false"/>
+            <ImageView android:id="@+id/man14" android:layout_weight="1" android:layout_height="match_parent" android:layout_width="match_parent" android:src="@drawable/icon_citizen" android:clickable="false"/>
+            <ImageView android:id="@+id/man15" android:layout_weight="1" android:layout_height="match_parent" android:layout_width="match_parent" android:src="@drawable/icon_citizen" android:clickable="false"/>
+        </TableRow>
+        <TableRow
+            android:id="@+id/line_cut2"
+            android:background="#000000"
+            android:layout_weight="1">
+            <ImageView android:id="@+id/man16" android:layout_weight="1" android:layout_height="match_parent" android:layout_width="match_parent" android:src="@drawable/icon_citizen" android:clickable="false"/>
+            <ImageView android:id="@+id/man17" android:layout_weight="1" android:layout_height="match_parent" android:layout_width="match_parent" android:src="@drawable/icon_citizen" android:clickable="false"/>
+            <ImageView android:id="@+id/man18" android:layout_weight="1" android:layout_height="match_parent" android:layout_width="match_parent" android:src="@drawable/icon_citizen" android:clickable="false"/>
+            <ImageView android:id="@+id/man19" android:layout_weight="1" android:layout_height="match_parent" android:layout_width="match_parent" android:src="@drawable/icon_citizen" android:clickable="false"/>
+        </TableRow>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <Button
+                android:id="@+id/check_result"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:textSize="30dp"
+                android:text="結果確認"
+                android:gravity="center"
+                android:onClick="btnOnClick"
+                />
+        </LinearLayout>
+
+    </TableLayout>
+
+</LinearLayout>

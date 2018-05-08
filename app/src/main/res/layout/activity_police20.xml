@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/page1"
+    >
+   <LinearLayout>
+      <Button
+          android:id="@+id/start"
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:text="再挑戦"/>
+   </LinearLayout>
+
+
+   <TableRow
+       android:background="#000000"
+       android:layout_weight="1">
+      <ImageView android:id="@+id/man0" android:layout_weight="1" android:layout_height="match_parent" android:layout_width="match_parent" android:src="@drawable/icon_citizen"/>
+      <ImageView android:id="@+id/man1" android:layout_weight="1" android:layout_height="match_parent" android:layout_width="match_parent" android:src="@drawable/icon_citizen"/>
+      <ImageView android:id="@+id/man2" android:layout_weight="1" android:layout_height="match_parent" android:layout_width="match_parent" android:src="@drawable/icon_citizen"/>
+      <ImageView android:id="@+id/man3" android:layout_weight="1" android:layout_height="match_parent" android:layout_width="match_parent" android:src="@drawable/icon_citizen"/>
+   </TableRow>
+   <TableRow
+       android:background="#000000"
+       android:layout_weight="1">
+      <ImageView android:id="@+id/man4" android:layout_weight="1" android:layout_height="match_parent" android:layout_width="match_parent" android:src="@drawable/icon_citizen"/>
+      <ImageView android:id="@+id/man5" android:layout_weight="1" android:layout_height="match_parent" android:layout_width="match_parent" android:src="@drawable/icon_citizen"/>
+      <ImageView android:id="@+id/man6" android:layout_weight="1" android:layout_height="match_parent" android:layout_width="match_parent" android:src="@drawable/icon_citizen"/>
+      <ImageView android:id="@+id/man7" android:layout_weight="1" android:layout_height="match_parent" android:layout_width="match_parent" android:src="@drawable/icon_citizen"/>
+   </TableRow>
+   <TableRow
+       android:background="#000000"
+       android:layout_weight="1">
+      <ImageView android:id="@+id/man8" android:layout_weight="1" android:layout_height="match_parent" android:layout_width="match_parent" android:src="@drawable/icon_citizen"/>
+      <ImageView android:id="@+id/man9" android:layout_weight="1" android:layout_height="match_parent" android:layout_width="match_parent" android:src="@drawable/icon_citizen"/>
+      <ImageView android:id="@+id/man10" android:layout_weight="1" android:layout_height="match_parent" android:layout_width="match_parent" android:src="@drawable/icon_citizen"/>
+      <ImageView android:id="@+id/man11" android:layout_weight="1" android:layout_height="match_parent" android:layout_width="match_parent" android:src="@drawable/icon_citizen"/>
+   </TableRow>
+   <TableRow
+       android:background="#000000"
+       android:layout_weight="1">
+      <ImageView android:id="@+id/man12" android:layout_weight="1" android:layout_height="match_parent" android:layout_width="match_parent" android:src="@drawable/icon_citizen"/>
+      <ImageView android:id="@+id/man13" android:layout_weight="1" android:layout_height="match_parent" android:layout_width="match_parent" android:src="@drawable/icon_citizen"/>
+      <ImageView android:id="@+id/man14" android:layout_weight="1" android:layout_height="match_parent" android:layout_width="match_parent" android:src="@drawable/icon_citizen"/>
+      <ImageView android:id="@+id/man15" android:layout_weight="1" android:layout_height="match_parent" android:layout_width="match_parent" android:src="@drawable/icon_citizen"/>
+   </TableRow>
+   <TableRow
+       android:background="#000000"
+       android:layout_weight="1">
+      <ImageView android:id="@+id/man16" android:layout_weight="1" android:layout_height="match_parent" android:layout_width="match_parent" android:src="@drawable/icon_citizen"/>
+      <ImageView android:id="@+id/man17" android:layout_weight="1" android:layout_height="match_parent" android:layout_width="match_parent" android:src="@drawable/icon_citizen"/>
+      <ImageView android:id="@+id/man18" android:layout_weight="1" android:layout_height="match_parent" android:layout_width="match_parent" android:src="@drawable/icon_citizen"/>
+      <ImageView android:id="@+id/man19" android:layout_weight="1" android:layout_height="match_parent" android:layout_width="match_parent" android:src="@drawable/icon_citizen"/>
+   </TableRow>
+
+
+   <LinearLayout
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:orientation="vertical">
+      <TextView
+          android:id="@+id/play"
+          android:layout_width="wrap_content"
+          android:layout_height="60dp"
+          android:textSize="20dp"
+          />
+   </LinearLayout>
+
+</TableLayout>
+
+

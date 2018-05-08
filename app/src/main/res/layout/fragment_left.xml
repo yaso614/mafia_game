@@ -1,0 +1,60 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    tools:context=".RuleExplain">
+
+
+            <Button
+                android:id="@+id/rule_citizen"
+                android:background="#ff5846"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1" android:text="市\n民" android:textSize="20dp"/>
+            <Button
+                android:id="@+id/rule_police"
+                android:background="#c17a72"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1" android:text="警\n察" android:textSize="20dp"/>
+            <Button
+                android:id="@+id/rule_mafia"
+                android:background="#46ff62"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1" android:text="マ\nフ\nィ\nア" android:textSize="20dp"/>
+            <Button
+                android:id="@+id/rule_soldier"
+                android:background="#46b2ff"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1" android:text="軍\n人" android:textSize="20dp"/>
+
+            <Button
+                android:id="@+id/rule_reporter"
+                android:background="#3e3c93"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1" android:text="記\n者" android:textSize="20dp"/>
+            <Button
+                android:id="@+id/rule_terror"
+                android:background="#137822"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1" android:text="テ\nロ\nリ\nス\nト" android:textSize="20dp"/>
+            <Button
+                android:id="@+id/rule_couple"
+                android:background="#9eb4c4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1" android:text="恋\n人" android:textSize="20dp"/>
+            <Button
+                android:id="@+id/rule_doctor"
+                android:background="#265b81"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1" android:text="医\n者" android:textSize="20dp"/>
+
+
+</LinearLayout>
